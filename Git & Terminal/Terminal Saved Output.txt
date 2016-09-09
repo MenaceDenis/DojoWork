@@ -1,0 +1,318 @@
+Last login: Thu Sep  1 12:21:46 on ttys000
+Deniss-MacBook-Pro:~ denis.mehinagic$ pwd
+/Users/denis.mehinagic
+Deniss-MacBook-Pro:~ denis.mehinagic$ ls
+Applications	Desktop		Documents	Downloads	Library		Movies		Music		Pictures	Public
+Deniss-MacBook-Pro:~ denis.mehinagic$ cd desktop
+Deniss-MacBook-Pro:desktop denis.mehinagic$ ls
+CSS				Terminal Saved Output.txt	test
+Html				jQuery
+Deniss-MacBook-Pro:desktop denis.mehinagic$ cd test
+Deniss-MacBook-Pro:test denis.mehinagic$ ls
+README.md	commands.txt	css		index.html
+Deniss-MacBook-Pro:test denis.mehinagic$ git init
+Reinitialized existing Git repository in /Users/denis.mehinagic/Desktop/test/.git/
+Deniss-MacBook-Pro:test denis.mehinagic$ git add .
+Deniss-MacBook-Pro:test denis.mehinagic$ git status
+On branch master
+Your branch is up-to-date with 'TEST/master'.
+nothing to commit, working directory clean
+Deniss-MacBook-Pro:test denis.mehinagic$ git commit -m "Git assignment"
+On branch master
+Your branch is up-to-date with 'TEST/master'.
+nothing to commit, working directory clean
+Deniss-MacBook-Pro:test denis.mehinagic$ git log
+commit 0cf38db87f1924d2ee56c72fe699d20a195e8e8f
+Author: Denis Mehinagic <denis.mehinagic@live.com>
+Date:   Thu Sep 1 12:59:50 2016 -0700
+
+    modifed read file
+
+commit fab45927afccd3bbfe07d6ac6bc7ae4ab3072fac
+Author: Denis Mehinagic <denis.mehinagic@live.com>
+Date:   Thu Sep 1 12:58:19 2016 -0700
+
+    what the hell is going on
+
+commit 6a0df06af02988a8a2f1f42009687ec9862d77f3
+Merge: 0bd27e1 1a109f2
+Author: Denis Mehinagic <denis.mehinagic@live.com>
+Date:   Thu Sep 1 12:24:02 2016 -0700
+
+    first commit
+
+commit 0bd27e1473f62ad44a8e13feb6bec62877a39122
+Author: Denis Mehinagic <denis.mehinagic@live.com>
+Date:   Thu Sep 1 11:08:32 2016 -0700
+
+    added round 3
+
+commit 7e6cefaf97f629167c2d8f6c0adfa20df56fa16e
+Author: Denis Mehinagic <denis.mehinagic@Deniss-MacBook-Pro.local>
+Date:   Thu Sep 1 11:06:07 2016 -0700
+
+    added meta charset and title tag to index.html
+
+commit 02f17c9769e653c0bb44ae8a665188470b021789
+Author: Denis Mehinagic <denis.mehinagic@Deniss-MacBook-Pro.local>
+Date:   Thu Sep 1 11:02:36 2016 -0700
+
+    index.html added
+
+commit 1a109f2fcf645ed4e912e8f021c729276f9ba779
+Author: Denis Mehinagic <denis.mehinagic@Deniss-MacBook-Pro.local>
+Date:   Thu Sep 1 10:26:34 2016 -0700
+
+    added css trying to get it to githup
+Deniss-MacBook-Pro:test denis.mehinagic$ ls
+README.md	commands.txt	css		index.html
+Deniss-MacBook-Pro:test denis.mehinagic$ mkdir test2
+Deniss-MacBook-Pro:test denis.mehinagic$ cd test2
+Deniss-MacBook-Pro:test2 denis.mehinagic$ ls
+Deniss-MacBook-Pro:test2 denis.mehinagic$ touch index.html
+Deniss-MacBook-Pro:test2 denis.mehinagic$ touch master.css
+Deniss-MacBook-Pro:test2 denis.mehinagic$ ls
+index.html	master.css
+Deniss-MacBook-Pro:test2 denis.mehinagic$ git initi
+git: 'initi' is not a git command. See 'git --help'.
+
+Did you mean this?
+	init
+Deniss-MacBook-Pro:test2 denis.mehinagic$ git init
+Initialized empty Git repository in /Users/denis.mehinagic/Desktop/test/test2/.git/
+Deniss-MacBook-Pro:test2 denis.mehinagic$ git add .
+Deniss-MacBook-Pro:test2 denis.mehinagic$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   index.html
+	new file:   master.css
+
+Deniss-MacBook-Pro:test2 denis.mehinagic$ git commit -m "git assignment round 2"
+[master (root-commit) 70d781c] git assignment round 2
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+ create mode 100644 master.css
+Deniss-MacBook-Pro:test2 denis.mehinagic$ git log
+commit 70d781cca91aa507fe1fbd7532b70408d18af581
+Author: Denis Mehinagic <denis.mehinagic@live.com>
+Date:   Thu Sep 1 14:03:52 2016 -0700
+
+    git assignment round 2
+Deniss-MacBook-Pro:test2 denis.mehinagic$ ls
+index.html	master.css
+Deniss-MacBook-Pro:test2 denis.mehinagic$ get status
+-bash: get: command not found
+Deniss-MacBook-Pro:test2 denis.mehinagic$ git log
+commit 70d781cca91aa507fe1fbd7532b70408d18af581
+Author: Denis Mehinagic <denis.mehinagic@live.com>
+Date:   Thu Sep 1 14:03:52 2016 -0700
+
+    git assignment round 2
+Deniss-MacBook-Pro:test2 denis.mehinagic$ cd ..
+Deniss-MacBook-Pro:test denis.mehinagic$ git log
+commit 0cf38db87f1924d2ee56c72fe699d20a195e8e8f
+Author: Denis Mehinagic <denis.mehinagic@live.com>
+Date:   Thu Sep 1 12:59:50 2016 -0700
+
+    modifed read file
+
+commit fab45927afccd3bbfe07d6ac6bc7ae4ab3072fac
+Author: Denis Mehinagic <denis.mehinagic@live.com>
+Date:   Thu Sep 1 12:58:19 2016 -0700
+
+    what the hell is going on
+
+commit 6a0df06af02988a8a2f1f42009687ec9862d77f3
+Merge: 0bd27e1 1a109f2
+Author: Denis Mehinagic <denis.mehinagic@live.com>
+Date:   Thu Sep 1 12:24:02 2016 -0700
+
+    first commit
+
+commit 0bd27e1473f62ad44a8e13feb6bec62877a39122
+Author: Denis Mehinagic <denis.mehinagic@live.com>
+Date:   Thu Sep 1 11:08:32 2016 -0700
+
+    added round 3
+
+commit 7e6cefaf97f629167c2d8f6c0adfa20df56fa16e
+Author: Denis Mehinagic <denis.mehinagic@Deniss-MacBook-Pro.local>
+Date:   Thu Sep 1 11:06:07 2016 -0700
+
+    added meta charset and title tag to index.html
+
+commit 02f17c9769e653c0bb44ae8a665188470b021789
+Author: Denis Mehinagic <denis.mehinagic@Deniss-MacBook-Pro.local>
+Date:   Thu Sep 1 11:02:36 2016 -0700
+
+    index.html added
+
+commit 1a109f2fcf645ed4e912e8f021c729276f9ba779
+Author: Denis Mehinagic <denis.mehinagic@Deniss-MacBook-Pro.local>
+Date:   Thu Sep 1 10:26:34 2016 -0700
+
+    added css trying to get it to githup
+Deniss-MacBook-Pro:test denis.mehinagic$ ls
+README.md	commands.txt	css		index.html	test2
+Deniss-MacBook-Pro:test denis.mehinagic$ cd test2
+Deniss-MacBook-Pro:test2 denis.mehinagic$ git log
+commit 70d781cca91aa507fe1fbd7532b70408d18af581
+Author: Denis Mehinagic <denis.mehinagic@live.com>
+Date:   Thu Sep 1 14:03:52 2016 -0700
+
+    git assignment round 2
+Deniss-MacBook-Pro:test2 denis.mehinagic$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.DS_Store
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Deniss-MacBook-Pro:test2 denis.mehinagic$ git add index.html
+Deniss-MacBook-Pro:test2 denis.mehinagic$ git commit -m "update html"
+[master b52cd13] update html
+ 1 file changed, 10 insertions(+)
+Deniss-MacBook-Pro:test2 denis.mehinagic$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   master.css
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.DS_Store
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Deniss-MacBook-Pro:test2 denis.mehinagic$ git add master.css
+Deniss-MacBook-Pro:test2 denis.mehinagic$ git commit -m "update css"
+[master c432e2c] update css
+ 1 file changed, 84 insertions(+)
+Deniss-MacBook-Pro:test2 denis.mehinagic$ git log
+commit c432e2c32f81a8a8ae117276b1f5297c405eefe0
+Author: Denis Mehinagic <denis.mehinagic@live.com>
+Date:   Thu Sep 1 14:07:25 2016 -0700
+
+    update css
+
+commit b52cd13ff8f137d31b96a22721c7c156f9b15de7
+Author: Denis Mehinagic <denis.mehinagic@live.com>
+Date:   Thu Sep 1 14:06:40 2016 -0700
+
+    update html
+
+commit 70d781cca91aa507fe1fbd7532b70408d18af581
+Author: Denis Mehinagic <denis.mehinagic@live.com>
+Date:   Thu Sep 1 14:03:52 2016 -0700
+
+    git assignment round 2
+Deniss-MacBook-Pro:test2 denis.mehinagic$ git revert -n c432e2c
+Deniss-MacBook-Pro:test2 denis.mehinagic$ git log
+commit c432e2c32f81a8a8ae117276b1f5297c405eefe0
+Author: Denis Mehinagic <denis.mehinagic@live.com>
+Date:   Thu Sep 1 14:07:25 2016 -0700
+
+    update css
+
+commit b52cd13ff8f137d31b96a22721c7c156f9b15de7
+Author: Denis Mehinagic <denis.mehinagic@live.com>
+Date:   Thu Sep 1 14:06:40 2016 -0700
+
+    update html
+
+commit 70d781cca91aa507fe1fbd7532b70408d18af581
+Author: Denis Mehinagic <denis.mehinagic@live.com>
+Date:   Thu Sep 1 14:03:52 2016 -0700
+
+    git assignment round 2
+Deniss-MacBook-Pro:test2 denis.mehinagic$ git revert -n HEAD
+Deniss-MacBook-Pro:test2 denis.mehinagic$ git revert -n c432e2c
+Deniss-MacBook-Pro:test2 denis.mehinagic$ git revert -n b52cd13
+Deniss-MacBook-Pro:test2 denis.mehinagic$ git log
+commit c432e2c32f81a8a8ae117276b1f5297c405eefe0
+Author: Denis Mehinagic <denis.mehinagic@live.com>
+Date:   Thu Sep 1 14:07:25 2016 -0700
+
+    update css
+
+commit b52cd13ff8f137d31b96a22721c7c156f9b15de7
+Author: Denis Mehinagic <denis.mehinagic@live.com>
+Date:   Thu Sep 1 14:06:40 2016 -0700
+
+    update html
+
+commit 70d781cca91aa507fe1fbd7532b70408d18af581
+Author: Denis Mehinagic <denis.mehinagic@live.com>
+Date:   Thu Sep 1 14:03:52 2016 -0700
+
+    git assignment round 2
+Deniss-MacBook-Pro:test2 denis.mehinagic$ git reverse b52cd13
+git: 'reverse' is not a git command. See 'git --help'.
+
+Did you mean this?
+	rev-parse
+Deniss-MacBook-Pro:test2 denis.mehinagic$ git revert b52cd13
+error: Your local changes would be overwritten by revert.
+hint: Commit your changes or stash them to proceed.
+fatal: revert failed
+Deniss-MacBook-Pro:test2 denis.mehinagic$ git log 
+commit c432e2c32f81a8a8ae117276b1f5297c405eefe0
+Author: Denis Mehinagic <denis.mehinagic@live.com>
+Date:   Thu Sep 1 14:07:25 2016 -0700
+
+    update css
+
+commit b52cd13ff8f137d31b96a22721c7c156f9b15de7
+Author: Denis Mehinagic <denis.mehinagic@live.com>
+Date:   Thu Sep 1 14:06:40 2016 -0700
+
+    update html
+
+commit 70d781cca91aa507fe1fbd7532b70408d18af581
+Author: Denis Mehinagic <denis.mehinagic@live.com>
+Date:   Thu Sep 1 14:03:52 2016 -0700
+
+    git assignment round 2
+Deniss-MacBook-Pro:test2 denis.mehinagic$ git commit -m "revert"
+[master 237503e] revert
+ 2 files changed, 94 deletions(-)
+ rewrite master.css (100%)
+Deniss-MacBook-Pro:test2 denis.mehinagic$ git log
+commit 237503e45745d7644f804a31d894ab2046c4202e
+Author: Denis Mehinagic <denis.mehinagic@live.com>
+Date:   Thu Sep 1 14:13:18 2016 -0700
+
+    revert
+
+commit c432e2c32f81a8a8ae117276b1f5297c405eefe0
+Author: Denis Mehinagic <denis.mehinagic@live.com>
+Date:   Thu Sep 1 14:07:25 2016 -0700
+
+    update css
+
+commit b52cd13ff8f137d31b96a22721c7c156f9b15de7
+Author: Denis Mehinagic <denis.mehinagic@live.com>
+Date:   Thu Sep 1 14:06:40 2016 -0700
+
+    update html
+
+commit 70d781cca91aa507fe1fbd7532b70408d18af581
+Author: Denis Mehinagic <denis.mehinagic@live.com>
+Date:   Thu Sep 1 14:03:52 2016 -0700
+
+    git assignment round 2
+Deniss-MacBook-Pro:test2 denis.mehinagic$ 

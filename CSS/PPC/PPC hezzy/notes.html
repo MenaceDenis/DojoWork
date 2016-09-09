@@ -1,0 +1,45 @@
+Hi Denis, 
+
+Great work on your assignment! Parent-sib-child hierarchy looks very good in your html file. 
+
+Several things I would like to go over with you. 
+
+1. Cut down on your use of divs. Sometimes they are unnecessary. I like to use divs when organizing my website into meaningful chunks like navbar, maincontent, footer, etc. For example, on lines 31-33, you have:
+<div class="img">
+	<img src="main_pic.png" alt="building" style="">	
+</div>
+This is not necessary. You can target img without having to have <div></div> around it. 
+On lines 88-101, you have:
+<div id="die">
+	<div class="diehead">
+		<h4>DIESEL EXHAUST FLUID</h4>
+	</div>
+	<div class="dieimg">
+		<img src="diesel.png" alt="" style="width: 100%;">
+	</div>
+	<div class="dietext">
+		<p>As government regulations on emission from disel engines become more severe, it has forced vehicle manufactures to evaluate and adopt new technologies in order to..</p>
+	</div>
+	<div class="diebutton">
+		<button href="#">Read More</button>
+	</div>
+</div>
+Rather, it would be better if you had:
+<div id="die">
+	<h4>DIESEL EXHAUST FLUID</h4>
+	<img src="diesel.png" alt="" style="width: 100%;">
+	<p>As government regulations on emission from disel engines become more severe, it has forced vehicle manufactures to evaluate and adopt new technologies in order to..</p>
+	<button href="#">Read More</button>
+</div>
+
+If you wanted to target h4 in your css file, you would do #die h4. 
+
+2. Know the difference between classes and ids. Ids are unique -- could be used only once; classes could be used multiple times -- when you know you'll be using a certain stylistic layout more than once. That being said, the four div boxes on the bottom of the PPC site are very similar in style. The only difference is that the text and image content are different. Hence, I would highly suggest you to use a certain class to style to the four divs, instead of separate ids. 
+
+3. Modularize your image files for better file organization. Put all of the images in a folder called imgs. 
+
+4. Work on indentation in your CSS file. Ids shouldn't get indented because they are unique -- they have no relationship to other html components with ids. Classes too -- they don't have a parent-child-sib relationship with other classes or ids as html components do in the HTML file. Hence, no need to indent. However, when you are targeting specific html components that are within a div with a particular class or id, then indentation does matter. 
+
+Other than that, I don't see any major problems. Again, great work!
+-Heezy
+
