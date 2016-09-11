@@ -14,4 +14,5 @@ for i in range(1,5001):
         face = 'head'
         head_count += 1
     print "Attempt #"+str(i)+": Throwing a coin...It's a "+face+"!...Got "+str(head_count)+" head(s) and "+str(tail_count)+" tail(s) so far"
+input("\n\nPress the enter key to exit.")
 print 'End'
